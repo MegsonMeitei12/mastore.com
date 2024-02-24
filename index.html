@@ -1,14 +1,86 @@
 <html>
 <body style="background-color:white">
 <h1>Affiliate Marketing</h1>
+
+<head>
+	<title>Search Bar</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<form>
 <p>You can earn money using this website.
 <h1><p align="center" style="color:black">Top categories</p></h1>
-<a type="box" href="https://amazon.in/">Amazon</a>
 
-<input type="box"><a href=https://www.amazon.in/s?k=phone&crid=3GY9KIX3XCWC1&sprefix=phone%2Caps%2C285&ref=nb_sb_ss_ts-doa-p_1_5/>Search</input>
-<p><a href="https://flipkart.com/">Flipkart</a>
-<p><a href="https://myntra.com/">Myntra</a>
-<p><a href="https://meesho.com/">Meesho</a>
-<p><a href="https://shopsy.com/">Shopsy</a>
+
+<div class="row">
+  <div class="left">
+    <h2><a type="box" href="https://amazon.in/"><button><b>AMAZON</a></button></h2></b>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="https://www.amazon.in/s?k=redmi+phone&crid=2B6KWDJNX81IM&sprefix=redmi+phone%2Caps%2C260&ref=nb_sb_noss_1">Redmi</a></li>
+      <li><a href="https://www.amazon.in/s?k=realme+phone&crid=10BBXKA8PI1C1&sprefix=realme+phone%2Caps%2C258&ref=nb_sb_noss_1">Realme</a></li>
+      <li><a href="https://www.amazon.in/s?k=iphone&crid=2JJ0266N6S2KX&sprefix=amazon+prime%2Caps%2C266&ref=nb_sb_noss_2">Iphone</a></li>
+      <li><a href="https://www.amazon.in/s?k=grinder&crid=FI64M9Z1EXZC&sprefix=grinder%2Caps%2C250&ref=nb_sb_noss_1">Grinder</a></li>
+      <li><a href="https://www.amazon.in/s?k=jacket+for+men&crid=1BFZX9AJZAKNV&sprefix=jacket+for+men%2Caps%2C250&ref=nb_sb_noss_1">Jacket for Men</a></li>
+      <li><a href="https://www.amazon.in/s?k=women+shoes&crid=VLNE8T722KPF&sprefix=women+shoes%2Caps%2C253&ref=nb_sb_noss_1">Women Shoes</a></li>
+      <li><a href="https://www.amazon.in/s?k=laptop&crid=33XK74I08L1L7&sprefix=laptop%2Caps%2C269&ref=nb_sb_noss_1https://www.amazon.in/s?k=laptop&crid=33XK74I08L1L7&sprefix=laptop%2Caps%2C269&ref=nb_sb_noss_1">Laptop</a></li>
+      <li><a href="https://www.amazon.in/s?k=kitchen&crid=2WGM4K15VEO8Z&sprefix=kitchen%2Caps%2C276&ref=nb_sb_noss_1">Kitchen</a></li>
+      <li><a href="https://www.amazon.in/s?k=headphone&crid=3A2W5CAU0H7Z4&sprefix=headphone%2Caps%2C309&ref=nb_sb_noss_2">Headphone</a></li>
+      <li><a href="https://www.amazon.in/s?k=television&crid=31LY1KTG46PQM&sprefix=televisi%2Caps%2C264&ref=nb_sb_ss_ts-doa-p_1_8">Television</a></li>
+      <li><a href="https://www.amazon.in/s?k=smartwatch&crid=2HPXZ3F5QSS4X&sprefix=smartwatch%2Caps%2C264&ref=nb_sb_noss_1">Smartwatch</a></li>
+      <li><a href="https://www.amazon.in/s?k=software&crid=1BYVZQD4DPJ9Z&sprefix=software%2Caps%2C269&ref=nb_sb_noss_1">Software</a></li>
+      <li><a href="https://www.amazon.in/s?k=fitness&crid=2HU6CMO8HRMS1&sprefix=fitness%2Caps%2C262&ref=nb_sb_noss_1">Fitness</a></li>
+      <li><a href="https://www.amazon.in/s?k=shoes&crid=309RI14VO6S7J&sprefix=shoe%2Caps%2C285&ref=nb_sb_noss_1">Shoes</a></li>
+      <li><a href="https://www.amazon.in/s?k=Shampoos&crid=1KQFH3HNT7J0M&sprefix=shampoos%2Caps%2C266&ref=nb_sb_noss_1">Shampoos</a></li>
+      <li><a href="https://www.amazon.in/s?k=facewash&crid=18KVDZRNTFQ2H&sprefix=Facewash%2Caps%2C278&ref=nb_sb_ss_ts-doa-p_1_8">Facewash</a></li>
+      <li><a href="https://www.amazon.in/s?k=Printer&crid=1BSUOPQ2YC195&sprefix=printe%2Caps%2C278&ref=nb_sb_noss_2">Printers</a></li>
+      <li><a href="https://www.amazon.in/s?k=Mouse&crid=16KW42C2D5EY4&sprefix=mouse%2Caps%2C262&ref=nb_sb_noss_1">Mouse</a></li>
+      <li><a href="https://www.amazon.in/s?k=computer+accessories&crid=36IBN4LLL4JNK&sprefix=computer+acc%2Caps%2C260&ref=nb_sb_ss_ts-doa-p_1_12">Computer Accessories</a></li>
+      <li><a href="https://www.amazon.in/s?k=mobile+accessories&crid=WYZUG2UR854&sprefix=mobile+ac%2Caps%2C266&ref=nb_sb_ss_ts-doa-p_1_9">Mobile Accessories</a></li>
+      <li><a href="https://www.amazon.in/s?k=Rice+cooker&crid=3GD9GX7XNY1D8&sprefix=rice+cooker%2Caps%2C294&ref=nb_sb_noss_1">Rice Cooker</a></li>
+      <li><a href="https://www.amazon.in/s?k=pharmacy&crid=15P55JOG3CR97&sprefix=pharmacy%2Caps%2C271&ref=nb_sb_noss_1">Pharmacy</a></li>
+    </ul>
+
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+  <p><a href="https://flipkart.com/"><button>Flipkart</a></button>
+<br><input type="text" placeholder="Search.."><button><i class="fa fa-search" style="font-size: 18px;"></i>
+				</button>
+  <p><a href="https://myntra.com/"><button>Myntra</a></button>
+<br><input type="text" placeholder="Search.."><button><i class="fa fa-search" style="font-size: 18px;"></i>
+				</button>
+  <p><a href="https://meesho.com/"><button>Meesho</a></button>
+<br><input type="text" placeholder="Search.."><button><i class="fa fa-search" style="font-size: 18px;"></i>
+				</button>
+  <p><a href="https://shopsy.com/"><button>Shopsy</a></button>
+<br><input type="text" placeholder="Search.."><button><i class="fa fa-search" style="font-size: 18px;"></i>
+				</button>
+
+</form>
+<h1><p align="center">Crypto currencies</p></h1>
+  <p><a href="https://fibitpro.com/">Fibitpro</a>
+  <p><a href="https://coinbase.com/">Coinbase</a>
+  <p><a href="https://binance.com/">Binance</a>
+
 </body>
 </html>
